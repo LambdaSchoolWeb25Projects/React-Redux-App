@@ -35,7 +35,7 @@ const reducer = (state = initialState, action) => {
                 isFetching: false,
                 error: ''
             };
-            case FETCH_EARTHQUAKE:
+            case FETCH_EARTHQUAKE_FAIL:
             return {
                 ...state,
                 isFetching: false,
