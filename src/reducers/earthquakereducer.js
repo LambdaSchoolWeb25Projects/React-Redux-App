@@ -4,7 +4,7 @@ import {
     FETCH_EARTHQUAKE,
     FETCH_EARTHQUAKE_SUCCESS,
     FETCH_EARTHQUAKE_FAIL,
-} from '../actions/earthquakeactions';
+} from '../actions/earthquakeActions';
 
 // set state in the reducer
 // initial

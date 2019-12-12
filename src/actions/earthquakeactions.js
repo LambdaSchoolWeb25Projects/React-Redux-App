@@ -9,8 +9,13 @@ export const FETCH_EARTHQUAKE_SUCCESS = 'FETCH_EARTHQUAKE_SUCCESS';
 export const FETCH_EARTHQUAKE_FAIL = 'FETCH_EARTHQUAKE_FAIL';
 
 // add axios .get .post or .edit calls
+// const getEarthquake = () => {
+//      return dispatch => {
+//          dispatch({ type: 'FETCH_EARTHQUAKE' });
+//  };
+// };
 
-export const getEarthquake = () => dispatch => {
+export const getEarthQuake = () => dispatch => {
     dispatch ({ type: FETCH_EARTHQUAKE });
     axios
         .get('')
